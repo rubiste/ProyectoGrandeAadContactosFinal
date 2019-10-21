@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ProyectoGrandeAadContactos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="guardarContactos">Save as CSV</string>
+    <string name="displayRecord">Display Record</string>
+    <string name="leerContactos">Read contacts from files</string>
+    <string name="aceptarPermisos">You have to accept permissions to use this app</string>
+    <string name="aceptarPermisos2">You have to accept Write Permissions</string>
+    <string name="Intro">Contacts: \n\n</string>
+
+    <!--RecordActivity-->
+    <string name="deleteRecord">Delete Files Record</string>
+    <string name="emptyRecord">You have no records</string>
+
+    <!--ReadActivity-->
+    <string name="introduceFileName">Introduce the name of the file you want to read</string>
+    <string name="Read">Read File</string>
+    <string name="readFileWARNING">That file doesn\'t exists</string>
+    <string name="encuentraInterno">The file is located at the internal storage</string>
+    <string name="encuentraPrivado">The file is located at the private storage</string>
+
+    <!--SaveActivity-->
+    <string name="tvActivate">⚠️You have to enable the save options</string>
+    <string name="tvActivate2">Your file will be save privately by default</string>
+    <string name="tvActivate3">Your file will be save internally</string>
+    <string name="tvIntroducir">Insert the name of the file</string>
+    <string name="etExample">FileNameExample</string>
+    <string name="btSave">Save File</string>
+
+    <!-- Preference Titles -->
+    <string name="data_header">Your Data</string>
+    <string name="config_header">Configuration</string>
+
+    <!-- Messages Preferences -->
+    <string name="name_title">Set your name</string>
+    <string name="email_title">Set your email</string>
+
+    <!-- Save Preferences -->
+    <string name="save_file">Activate to save files</string>
+    <string name="save_title">Do you want to save the title?</string>
+    <string name="private_internal_title">Private or Internal</string>
+    <string name="private_internal_explanation">You have to choose where do you want to save</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

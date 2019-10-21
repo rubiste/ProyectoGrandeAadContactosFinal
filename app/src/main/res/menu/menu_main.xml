@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.proyectograndeaadcontactos.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="102"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/guardarContactos"
+        android:title="@string/guardarContactos"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/mostrarHistorial"
+        android:title="@string/displayRecord"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/leerContactos"
+        android:title="@string/leerContactos"
+        android:orderInCategory="2"/>
+</menu>
